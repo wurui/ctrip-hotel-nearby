@@ -1,0 +1,6 @@
+{
+  "name": "ctrip-hotel-nearby",
+  "version": "0.0.1",
+  "apiDependencies": ["lbs-product"]
+}
+
