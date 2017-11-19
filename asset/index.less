@@ -1,0 +1,94 @@
+.oxmod-ctrip-hotel-nearby{
+/* CSS */
+	.mainpic{
+		//width: 100%;
+		//padding-top: 60%;
+		height: 0;
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-background-size:auto 100%;
+	}
+	a{
+		color:#333;
+	}
+	li{
+		padding:15px 15px 15px 0%;
+		margin-left: 15px;
+		overflow: hidden;
+		.mainpic{
+			width:40%;
+			height: 0;
+			padding-top: 30%;
+			float:left;
+			//margin-left: -70%;
+			margin-right: 15px;
+		}
+	}
+	.title{
+		font-size: 16px;
+		font-weight: 400;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow:ellipsis;
+	}
+	.brief{
+		font-size: 12px;
+		line-height: 1.8;
+
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow:ellipsis;
+	}
+	.score{
+
+		font-size: 12px;
+		color: #999;
+		&:before{
+			content: attr(data-score);
+			color:#09f;
+			margin-right: 10px;
+		}
+	}
+	.location{
+
+		font-size: 12px;
+		color: #999;
+	}
+	.bottom{
+		padding: 5px 0;
+	}
+	.price{
+		float: right;
+		margin-top: -5px;
+	}
+	.price{
+		em{
+			color:#f60;
+			font-size: 20px;
+			font-style: normal;
+			//font-weight: 700;
+			&:before{
+				content: '\a5';
+				font-size: 12px;
+				font-weight: 400;
+			}
+			&:after{
+				content: '起';
+				font-size: 12px;
+				font-weight: 400;
+				color:#999;
+			}
+		}
+		del{
+			color:#ccc;
+			font-size: 12px;
+			&:before{
+				content: '\a5';
+				font-size: 12px;
+			}
+			margin-left: 6px;
+		}
+
+	}
+
+ }

@@ -2,9 +2,30 @@
     <xsl:template match="/root" name="wurui.ctrip-hotel-nearby">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-ctrip-hotel-nearby" ox-mod="ctrip-hotel-nearby">
-            <h1>
-                This is mod ctrip-hotel-nearby;
-            </h1>
+            <ul>
+            	<xsl:for-each select="data/lbs-products/i">
+            		<li>
+            			<a href="{href}">
+	            			<img class="mainpic"
+	            			 style="background-image:url({img}@!w240)"
+	            			 src="https://a.oxm1.cc/img/blank.png"/>
+		            		<h4 class="title"><xsl:value-of select="title"/></h4>
+		            		<p class="brief">
+		            			<xsl:value-of select="brief"/>
+		            		</p>
+		            		<p class="score" data-score="{score}">
+		            			<xsl:value-of select="comment_count"/>条点评
+		            		</p>
+		            		<p class="bottom">
+		            			<span class="price">
+		            				<em><xsl:value-of select="price"/></em>
+		            			</span>
+		            			<span class="location"><xsl:value-of select="location"/></span>
+		            		</p>
+		            	</a>
+            		</li>
+            	</xsl:for-each>
+            </ul>
         </div>
     </xsl:template>
 </xsl:stylesheet>

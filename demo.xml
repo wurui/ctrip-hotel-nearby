@@ -14,31 +14,61 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <lbs-product>
-        <location>
-            light-weight wallet
-        </location>
-        <score>
-            4.42
-        </score>
-        <description>
-            good mobilephone
-        </description>
-        <comment_count>
-            camera
-        </comment_count>
-        <img>
-            light-weight mobilephone
-        </img>
-        <img_count>
-            wallet
-        </img_count>
-        <title>
-            strong wallet
-        </title>
-        <price>
-            0.7
-        </price>
-    </lbs-product>
+        <lbs-products>
+            <i>
+                <title>杭州马可波罗假日酒店</title>
+                <location>距清河坊街1.6km</location>
+                <score>4.7</score>
+                <brief>Merchant Marco Hotel</brief>
+                <comment_count>20826</comment_count>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a9g3n0oyTj9w9el0uRyovyAs31-750.jpg</img>
+                <price>799</price>
+            </i>
+            <i>
+                <title>杭州中山国际大酒店</title>
+                <location>距清河坊街1.6km</location>
+                <score>4.4</score>
+                <brief>Zhongshan International Hotel</brief>
+                <comment_count>12574</comment_count>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a95p95qxTja6nsfyvR2v32A20ax-667.jpg</img>
+                <price>472</price>
+            </i>
+            <i>
+                <title>杭州友好饭店</title>
+                <location>距清河坊街1.6km</location>
+                <score>4.6</score>
+                <brief>Friendship Hotel Hangzhou</brief>
+                <comment_count>11291</comment_count>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a95p90pgTja6nsl0cRhvhmAm0m-714.jpg</img>
+                <price>558</price>
+            </i>
+            <i>
+                <title>杭州西湖山庄</title>
+                <location>距清河坊街3.2km</location>
+                <score>4.8</score>
+                <brief>Zhejiang Westlake Villa</brief>
+                <comment_count>2634</comment_count>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a95p8zyiTja6nslraRrs3cA8kga-749.jpg</img>
+                <price>1280</price>
+            </i>
+            <i>
+                <title>杭州广场君亭酒店</title>
+                <location>距清河坊街3.3km</location>
+                <score>4.5</score>
+                <brief>SSAW Boutique Hotel Hangzhou</brief>
+                <comment_count>7905</comment_count>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a95p94j2Tja6nsh6qR5tkaA266f-667.jpg</img>
+                <price>438</price>
+            </i>
+            <i>
+                <title>杭州瑞立江河汇酒店</title>
+                <location>距清河坊街5.7km</location>
+                <score>4.7</score>
+                <brief>Sorl Hotel Hangzhou</brief>
+                <comment_count>4185</comment_count>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a95p93t0Tja6nshwsRyzfpA3oru-667.jpg</img>
+                <price>588</price>
+            </i>
+        </lbs-products>
     </data>
 </root>
